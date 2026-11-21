@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["bun"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true
+  },
+  "include": ["./*.ts", "../src/constant/news.ts", "../src/constant/pagination.ts", "../src/lib/validations/api.ts", "../src/lib/validations/news.ts", "../src/types/base-response.ts"]
+}
